@@ -1,3 +1,8 @@
+/* Common styles */
+body {
+    margin: 0px;
+}
+
 /* Common nav styles */
 .navigation-wrapper  {
     height: 190px;
@@ -7,16 +12,45 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 60px 100px;
 }
 
-.contact-hours-wrapper  {
-    /* color: royalblue; */
+.left-column {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+.icon i {
+    font-size: 2em;
+}
+
+.left-column > .contact-hours-wrapper  {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.right-column {
+    display: flex;
+    align-items: center;
+}
+
+.icon-map {
+    
+}
+
+.icon-map i {
+    font-size: 2em;
 }
 
 .address-wrapper    {
-    /* color: red; */
-}
-       
+
+}     
+
 .nav-link   {
 
 }
