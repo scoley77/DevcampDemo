@@ -1,0 +1,10 @@
+/* Here Scetion Styles */
+.hero-section {
+    background-image: url(../images/background-images/fries-hero-bg.jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
