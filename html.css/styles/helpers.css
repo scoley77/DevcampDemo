@@ -12,3 +12,7 @@
 .anchor-link:focus {
   outline: none;
 }
+
+.spacer10 {
+  height: 10px;
+}

@@ -62,3 +62,7 @@
   visibility: visible;
   transform: translateY(1rem);
 }
+
+.form input:focus::-webkit-input-placeholder, .form textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
