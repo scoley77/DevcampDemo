@@ -9,3 +9,5 @@ Skills used in this site include:
 -media queries for mobile browsers
 -contact form
 -drop shadows
+
+The folder, "CF project", is the final project for the devCamp Foundation course. It is a clone of an instance of the CodePen homepage.
