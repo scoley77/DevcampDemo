@@ -7,6 +7,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 body {
   margin: 0;
+  background-color: #1f1f22;
 }
 
 /* Nav styles */
@@ -89,7 +90,7 @@ body {
 }
 
 .nav-wrap > .buttons-wrapper > .button {
-  height: 30px;
+  height: 25px;
   border: #3a3b42;
   border-radius: 4px;
   background-color: #3a3b42;
@@ -106,6 +107,14 @@ body {
   text-align: center;
   vertical-align: middle;
   font-size: 0.95em;
+}
+
+.nav-wrap > .buttons-wrapper > #login {
+  margin-right: 0;
+}
+
+.nav-wrap > .buttons-wrapper > #signup {
+  margin-left: 10px;
 }
 
 .nav-wrap > .buttons-wrapper > .search-wrap i {
@@ -133,11 +142,11 @@ body {
 }
 
 .features-section > .left-col {
-  padding: 0px 50px;
+  margin: -15px 40px 0px 40px;
 }
 
 .features-section > .left-col > .top-p-wrap {
-  font-size: 1.8em;
+  font-size: 1.7em;
   font-weight: 300;
 }
 
@@ -146,11 +155,13 @@ body {
 }
 
 .features-section > .left-col > .mid-p-wrap p {
-  font-size: 1.5em;
-  font-weight: 300;
+  font-size: 1.45em;
+  font-weight: 400;
   color: #cecece;
   padding-right: 20px;
   margin-top: -10px;
+  letter-spacing: -0.5px;
+  line-height: 1.5em;
 }
 
 .left-col > .feat-btns {
@@ -199,6 +210,8 @@ body {
   font-weight: 600;
   margin: 0;
   padding: 10px;
+  padding-bottom: 5px;
+  font-size: 0.95em;
 }
 
 .features-section > .right-col > .heading-wrapper span {
@@ -212,5 +225,29 @@ body {
 
 /* Bottom bar styles */
 
+.bottom-bar {
+  height: 45px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0px;
+  background-color: #3a3b42;
+}
 
+.bottom-bar > .bar-item {
+  border: 1.5px solid #595c51;
+  text-align: center;
+  padding: 0;
+  height: 43px;
+}
 
+.bottom-bar > .bar-item h3 {
+  font-weight: 600;
+  font-size: 0.9em;
+  margin: 0;
+  padding: 4px 0px;
+}
+
+.bottom-bar > .bar-item span {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.5em;
+}
