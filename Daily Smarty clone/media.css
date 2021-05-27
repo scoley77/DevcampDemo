@@ -1,0 +1,19 @@
+@media (max-width: 48em) {
+  .container {
+    margin: 20px;
+  }
+  
+  .style-details {
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+
+  .style-details > .style-details-text {
+    text-align: center;
+  }
+
+  .dos-donts-wrapper {
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+}

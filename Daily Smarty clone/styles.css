@@ -15,3 +15,121 @@ li {
 .content-wrapper {
   width: 660px;
 }
+
+.style-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.style-details > .style-details-text {
+  text-align: right;
+}
+
+.style-details > .style-details-text div {
+  color: #808080;
+  font-weight: normal;
+}
+
+.style-details > .style-details-text h3 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.style-details > .style-details-logo img {
+  width: 100%;
+}
+
+.dos-donts-wrapper {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  grid-gap: 30px;
+}
+
+.dos-donts-wrapper > .dos-donts-list > .dos-heading {
+  font-weight: 900;
+  margin-bottom: 20px;
+  margin-left: 40px;
+
+}
+
+.dos-donts-wrapper > .dos-donts-list > .blue_text {
+  color: #0079ff
+}
+
+.dos-donts-wrapper > .dos-donts-list > .red_text {
+  color: #dc0004
+}
+
+.dos-donts-list ul li {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.dont-image-box {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.dont-image-box div {
+  font-size: 14px;
+  color: #999999;
+}
+
+.dont-image-box img {
+  width: 50%;
+}
+
+.alternate-options-wrapper {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.alternate-options-wrapper > .alternate-heading h3 {
+  color: #999999;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.alternate-options-wrapper ul li {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.alternate-options-images {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  grid-gap: 100px 40px;
+}
+
+.alternate-options-images > .image-logo {
+  width: 60%;
+}
+
+.alternate-options-images > .text-logo {
+  width: 90%;
+}
+
+.additional-branding {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.additional-branding a {
+  color: #4fb8e8;
+  font-size: 19px;
+}
+
+.additional-branding p {
+  margin-bottom: 42;
+}
