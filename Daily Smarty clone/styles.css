@@ -1,7 +1,9 @@
 body {
   font-family: 'Lato', sans-serif;
   background-color: #ffffff;
+  margin-bottom: 50px;
 }
+
 p,
 li {
   font-family: 'PT Serif', serif;

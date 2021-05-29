@@ -16,4 +16,9 @@
     grid-template-columns: 1fr;
     grid-gap: 50px;
   }
+
+  .preview-content {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
 }
